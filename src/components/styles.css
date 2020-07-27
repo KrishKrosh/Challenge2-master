@@ -1,0 +1,169 @@
+/* Globals */
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 50px;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+.container {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  max-width: 80vw !important;
+}
+
+.background {
+  background-image: linear-gradient(to right, #ffecd2, lightblue);
+}
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: darkgrey;
+}
+
+/* Navbar */
+.navbarPaper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.171);
+}
+
+.navbarItem {
+  width: 200px;
+}
+.navbarSearch {
+  width: 50em;
+}
+.loggedInNavBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loggedInNavBarItem {
+  margin-right: 40px !important;
+}
+.loggedInNavBarItem2 {
+  margin-right: 10px !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.loggedInNavBarItem3 {
+  background-color: #fcb69f !important;
+  font-size: 0.8em !important;
+}
+
+.loggedInNavBarItem2:hover {
+  text-decoration: underline !important;
+}
+
+.right {
+  float: right;
+  padding-left: 1000;
+}
+/* Promotions Banner */
+.carouselImg {
+  height: 54vh;
+  object-fit: cover;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
+.carouselWidth {
+  border-radius: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Media Card */
+.card {
+  height: 60vh;
+  width: 40vh;
+  margin: 50px;
+}
+
+.cardImg {
+  height: auto;
+}
+
+.cardHover {
+  height: 60vh;
+}
+.cardName {
+  font-size: 1vw !important;
+}
+.redeem {
+  text-align: right;
+  color: rgb(47, 0, 255);
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  padding: 20px;
+}
+.store {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+}
+
+/* Category Scroll Bar */
+
+.categoryButton {
+  margin: 10px !important;
+  height: 45px !important;
+  min-width: auto !important;
+  padding-top: 30px !important;
+  font-family: Verdana, Geneva, sans-serif !important;
+  padding-bottom: 30px !important;
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+}
+
+.sort {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+}
